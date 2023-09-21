@@ -1,11 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
-import surahList from './apps/blog-posts'
-import counter from './apps/counter'
+import messenger from './apps/messenger'
 
 export const store = configureStore({
   reducer: {
-    counter,
-    surahList
+  
+    messenger
 
   },
 })
